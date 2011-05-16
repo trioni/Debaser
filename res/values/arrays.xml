@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used in app/menu examples -->
+    <string-array name="prefs_venues">
+        <item>Alla</item>
+        <item>Stockholm</item>
+        <item>Malmö</item>
+        <item>Slussen</item>
+        <item>Medis</item>
+        <item>Humlegården</item>
+    </string-array>
+    
+    <string-array name="prefs_venues_values">
+        <item>Alla</item>
+        <item>Stockholm</item>
+        <item>Malmo</item>
+        <item>Slussen</item>
+        <item>Medis</item>
+        <item>Humlegarden</item>                  
+    </string-array>
+    
+    <string-array name="prefs_interval_values">
+    	<item>15</item>
+    	<item>30</item>
+    	<item>90</item>
+    	<item>180</item>
+    	<item>365</item>
+    </string-array>
+    
+    <string-array name="prefs_interval">
+    	<item>15 dagar</item>
+    	<item>30 dagar</item>
+    	<item>90 dagar</item>
+    	<item>180 dagar</item>
+    	<item>365 dagar</item>
+    </string-array>    
+    
+    <!-- Widget -->
+    <string-array name="prefs_widget_venues">
+        <item>Stockholm</item>
+        <item>Malmö</item>
+        <item>Slussen</item>
+        <item>Medis</item>
+        <item>Humlegården</item>
+    </string-array>    
+    
+</resources>

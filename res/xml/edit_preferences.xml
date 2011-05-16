@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/prefs_cat_search">
+        <ListPreference
+                android:key="list_venues"
+                android:title="@string/prefs_cat_search_venues_title"
+                android:summary="@string/prefs_cat_search_venues_summary"
+                android:entries="@array/prefs_venues"
+                android:entryValues="@array/prefs_venues_values"
+                android:dialogTitle="@string/prefs_cat_search_venues_summary" />
+        <PreferenceScreen
+        	android:title="@string/prefs_screen_date"
+        	android:key="screen_date">
+        	<PreferenceCategory
+        		android:title="@string/prefs_cat_startdate_title">
+	        	<CheckBoxPreference
+	        		android:key="date_today"
+	        		android:title="@string/prefs_date_default_title"
+	        		android:defaultValue="true" />
+				<se.oskarnordgren.debaser.DatePickerPreference
+					android:key="custom_startdate_selector"
+					android:title="@string/prefs_datepick_title" />        		
+			</PreferenceCategory>
+			<PreferenceCategory
+				android:title="@string/prefs_cat_interval_title">
+				<ListPreference
+					android:key="list_interval"
+					android:title="@string/prefs_interval_title"
+					android:summary="@string/prefs_interval_summary"
+					android:entries="@array/prefs_interval"
+					android:entryValues="@array/prefs_interval_values"
+					android:defaultValue="30" />
+			</PreferenceCategory>			
+        </PreferenceScreen>
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/prefs_cat_list">
+            <CheckBoxPreference
+                    android:key="cb_load_images"
+                    android:title="@string/prefs_cat_list_load_images_title"
+                    android:summary="@string/prefs_cat_list_load_images_summary"
+                    android:defaultValue="true" />
+            <CheckBoxPreference
+                    android:key="cb_load_image_large"
+                    android:title="@string/prefs_cat_load_images_title"
+                    android:summary="@string/prefs_cat_list_load_images_summary"
+                    android:defaultValue="true" />	                    	
+	</PreferenceCategory>	
+</PreferenceScreen>

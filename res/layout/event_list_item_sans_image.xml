@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:paddingRight="@dimen/list_item_padding"
+  android:paddingTop="@dimen/list_item_padding"
+  android:paddingBottom="@dimen/list_item_padding">
+	<ImageView
+		android:id="@+id/mark"
+		android:layout_width="4dp"
+		android:layout_height="35dp"
+		android:src="@drawable/listmarker"
+		android:layout_alignParentLeft="true"
+		android:padding="@dimen/list_item_padding_negative"
+		android:layout_alignParentTop="true" />   
+   	<TextView
+    	android:id="@+id/firstLine"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toRightOf="@id/mark"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingLeft="8dp" />
+    <ImageView
+    	android:id="@+id/venue_marker"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentRight="true"
+    	android:layout_marginTop="6dp"
+    	android:layout_alignParentTop="true"
+    	android:src="@drawable/medis_news_icon" />	
+    <TextView
+        android:id="@+id/secondLine"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/firstLine"
+        android:layout_alignParentLeft="true"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="8dp"
+        android:textSize="10sp" />  
+    <TextView
+        android:id="@+id/datetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/firstLine"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:ellipsize="marquee"
+        android:textColor="#FFFDA6"
+        android:textSize="9sp" />    	
+  
+</RelativeLayout>

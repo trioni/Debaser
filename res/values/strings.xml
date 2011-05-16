@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_greeting">Hej, jag vill bara tipsa om ett event på Debaser: </string>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Debaser</string>
+    <string name="progress_dialog_title">Laddar evenemang</string>
+    <string name="progress_dialog_body">Den som väntar på något gott...</string>
+    <string name="event">evenemang</string>
+    <string name="price">Pris</string>
+    <string name="when">Tid</string>
+    <string name="where">Plats</string>
+    <string name="age">Ålder</string>
+    
+    <string name="menu_add_to_calendar">Lägg till i kalender</string>
+    <string name="menu_settings">Inställningar</string>
+    <string name="menu_refresh">Uppdatera</string>
+    <string name="menu_favorites">Favoriter</string>
+    <string name="menu_save_as_favorite">Spara som favorit</string>
+    <string name="menu_delete_favorite">Ta bort favorit</string>
+    
+    <string name="prefs_fromdate">Sök evenemang från och med</string>
+    <string name="prefs_todate">...Till och med</string>
+    <string name="prefs_default_date">Default</string>
+    <string name="prefs_cat_search">Sökinställningar</string>
+    <string name="prefs_cat_list">Bildinställningar</string>
+    <string name="prefs_cat_list_load_images_title">Visa bilder i lista</string>
+    <string name="prefs_cat_load_images_title">Visa bilder i detaljvy</string>
+    <string name="prefs_cat_list_load_images_summary">Stäng av för att spara bandbredd.</string>
+    <string name="prefs_cat_search_venues_title">Visa evenemang på...</string>
+    <string name="prefs_cat_search_venues_summary">Visar </string>
+    <string name="prefs_screen_date">Sätt tidsperiod</string>
+    
+    <string name="prefs_date_default_title">Dagens datum</string>
+    <string name="prefs_date_default_summary">Startdatum</string>
+    
+    <string name="prefs_interval_title">Tidsintervall</string>
+    <string name="prefs_interval_summary">Valt intervall: </string>
+    <string name="prefs_interval_suffix">dagar</string>
+    
+    <string name="prefs_datepick_title">Annat datum</string>
+    <string name="prefs_datepick_summary">Valt datum:</string>
+    
+    <string name="prefs_cat_startdate_title">Startdatum</string>
+    <string name="prefs_cat_interval_title">Tidsintervall</string>
+    
+    <string name="no_result">Sökning på {x} gav inga träffar</string>
+	<string name="select_calendar_title">Välj kalender att spara till</string>
+	<string name="found_no_calendar">Kunde inte hitta någon kalender</string>
+	<string name="toast_saved_favorite">Favorit sparad</string>
+	<string name="toast_favorite_exist">Favoriten finns redan</string>
+	<string name="no_favorites">Inga favoriter sparade</string>
+	
+	<!-- Context menu  -->
+	<string name="ctx_heading">Alternativ</string>
+	<string name="ctx_add_calendar">Spara till kalender</string>
+	<string name="ctx_share">Dela</string>
+	<string name="ctx_favorite">Favorit</string>
+	<string name="ctx_share_subject">Spelning på Debaser:</string>
+	<string name="ctx_delete">Avfavoritisera</string>
+	<string name="menu_share">Dela</string>
+	
+	<!-- WIDGET -->
+	<string name="prefs_widget_venue">Visa dagens evenmang för:</string>
+	<string name="prefs_widget_btn">OK</string>	
+	<string name="prefs_widget_spinner">Välj arena</string>
+	<string name="widget_loading">Laddar data...</string>
+	<string name="prefs_widget_spinner_label">Välj arena</string>
+</resources>

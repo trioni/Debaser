@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="default_text_color">#FFFFFF</color>
+   <color name="favorite_marker">#d76d9d</color>
+   <color name="widget_shadow">#000000</color>
+   <color name="actionbar_separator">#5a5a5a</color>
+   <color name="actionbar_background_start">#4c4c4c</color>
+   <color name="actionbar_background_end">#1c1c1c</color>   
+</resources>

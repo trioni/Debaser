@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_padding">6dp</dimen>
+    <dimen name="list_item_padding_negative">-6dp</dimen>
+    <dimen name="thumb_rect_size">35dp</dimen>
+    <dimen name="list_text_size_1">16dip</dimen>
+    <dimen name="list_text_size_2">10dip</dimen>
+    <dimen name="desc_txt_padding">8dp</dimen>
+    <dimen name="desc_head_size">25sp</dimen>
+    <dimen name="btn_widget_action">28dp</dimen>
+    <dimen name="btn_widget_nav">25dp</dimen>
+    <dimen name="widget_margin_left">8dp</dimen>
+    <dimen name="widget_buttons_margin_right">8dp</dimen>
+    <dimen name="widget_content_width">180dp</dimen>
+    <dimen name="desc_txt_margin_left">50dp</dimen>
+</resources>
